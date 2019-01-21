@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "browser-ext-block",
+	"version": "0.1",
+	"description": "Block requests based on Scala.js",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": true
+	},
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"https://*/*",
+		"http://*/*"
+	]
+}
